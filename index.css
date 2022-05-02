@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: #206A5D;
+}
+
+.conteiner{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.valor{
+    width: 100px;
+    height: 100px;
+    background-color: #81B214;
+    border-radius: 50%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    margin: 1rem;
+}
+
+.valor span{
+    margin-top: .5rem;
+    font-size: 15px;
+    font: bolder;
+    color: #206A5D;
+}
+
+.box-cadastro {
+    width: 60%;
+    height: 90px;
+    background-color: #81B214;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-cadastro input{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#nome{
+    width: 25%;
+    height: 30px;    
+}
+
+#placa{
+    width: 15%;
+    height: 30px;       
+}
+
+#cadastrar{
+    width: 10%;
+    height: 30px;
+    background-color: #206A5D;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(250, 245, 245);
+}
+
+#cadastrar:hover{
+    background-color: #F1F1E8;
+    color: rgb(8, 8, 8);
+}
+
+table {
+    width: 50%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th {
+    height: 30px;
+    background-color: #BFDCAE;    
+}
+
+table, th, td {
+    border: 1px solid black;
+    
+}
+
+td{    
+    background-color: #F1F1E8;
+}
+
+.delete{
+    width: 20px;
+    height: 20px;
+    margin: .2rem;    
+    padding: .2rem;
+    text-align: center;
+}
