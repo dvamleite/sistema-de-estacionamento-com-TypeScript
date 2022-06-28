@@ -12,7 +12,7 @@
  
  ## Rodando o projeto
 
-- `git clone https://github.com/dvamleite/Encurtador-de-URL.git`
+- `git clone https://github.com/dvamleite/sistema-de-estacionamento-com-TypeScript.git`
 - `npm install`
 - `npm run build`
 - `npm run dev`
