@@ -9,3 +9,10 @@
  </div><br><br>
  
  ![Estacionamento - Pessoal — Microsoft​ Edge 02_05_2022 02_35_09](https://user-images.githubusercontent.com/66497989/166190504-fef732b5-9ad6-4377-a543-9f40983645a9.png)
+ 
+ ## Rodando o projeto
+
+- `git clone https://github.com/dvamleite/Encurtador-de-URL.git`
+- `npm install`
+- `npm run build`
+- `npm run dev`
